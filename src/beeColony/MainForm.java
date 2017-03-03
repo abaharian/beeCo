@@ -3,7 +3,6 @@ package beeColony;
 import java.awt.BorderLayout;
 import java.awt.ComponentOrientation;
 import java.awt.Dimension;
-import java.awt.GridLayout;
 import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.event.ComponentEvent;
@@ -16,7 +15,6 @@ import javax.swing.JMenuBar;
 import javax.swing.JPanel;
 import javax.swing.JSplitPane;
 
-import Database.Database;
 import primitives.MyMenubar;
 
 public class MainForm extends JFrame {

@@ -37,7 +37,7 @@ public class NestedLayoutExample {
                 for (int ii=0; ii<plafInfos.length; ii++) {
                     plafNames[ii] = plafInfos[ii].getName();
                 }
-                final JComboBox plafChooser = new JComboBox(plafNames);
+                final JComboBox<String> plafChooser = new JComboBox<String>(plafNames);
                 plafComponents.add(plafChooser);
 
                 final JCheckBox pack = new JCheckBox("Pack on PLAF change", true);
